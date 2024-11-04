@@ -1,0 +1,121 @@
+:root{
+    font-family: "Poppins" , sans-serif;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    background-color: teal;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    
+
+}
+
+#logo-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cart{
+    position: relative;
+    border-radius:20px ;
+    background-color: black;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.cart-count{
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    right: 12px;
+    border-radius: 53%;
+    width: 17px;
+    height: 17px;
+    top: 6px;
+
+}
+
+
+.fa-cart-shopping{
+    color: white;
+    font-size: 18px;
+    padding:20px 30px ;
+}
+
+.buttons{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.container{
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+ /* border-radius: 30px; */
+}
+
+.card{
+    border: 2px solid teal;
+    border-radius: 10px;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+}
+img{
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 10px;
+    width: 20rem;
+    padding: 5px;
+}
+
+h3{
+    color: teal;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: teal;
+    padding: 10px 0;
+    margin-top: 30rem;
+
+}
+
+.scroll{
+    position: fixed;
+    border-radius: 50%;
+    color: teal;
+    right: 10px;
+    font-size: 2.5rem;
+    z-index: 9;
+}
