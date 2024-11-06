@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+:root{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(galaxy.jpg);
+    background-size: 100%;
+}
+
+.head{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    margin: 15px;
+    font-size: x-large;
+    justify-content: space-between;
+}
+
+.main{
+    color: white;
+    margin: 10rem;
+    text-align: left;
+    width: 21rem;
+    margin-left: 24rem;
+}
+ .buttons{
+     display: flex;
+    }
+    button{
+        margin: 18px ;
+        color: white;
+        background: none;
+        font-size: 10px;
+        padding: 8px 14px ;
+        border: 2px solid white;
+        cursor: pointer;
+       margin-top: 70px;
+ }
+ .scroll{
+    position: fixed;
+    border-radius: 50%;
+    color: white;
+    right: 10px;
+    font-size: 2.5rem;
+    z-index: 9;
+    bottom: 15px;
+}
+
