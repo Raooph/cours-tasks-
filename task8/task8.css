@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(243, 121, 161);
+    width: 50%;
+    margin: 60px auto;
+    padding: 20px;
+    color: white;
+}
+form input{
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 12px;
+}
+
+
+.topclass{
+    display: flex;
+}
+
+label{
+    margin: 10px;
+    margin-left: 20px;
+    font-size: large;
+}
+h1{
+    text-align: center;
+    margin: 13px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap ;
+    
+}
+.main > * {
+    flex:  30%;
+}
+
+select{
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 12px;
+}
+ 
+ .container{
+    display: flex;
+ }
+ .container2{
+    display: flex;
+ }
+.RadioClass{
+    display: flex;
+    width: 250px;
+}
