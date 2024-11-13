@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(71, 142, 189);
+
+}
+
+.container{
+    /* border: 1px solid white; */
+    /* border: 0; */
+    border: none !important;
+    background-color: rgb(45, 179, 233);
+    margin: 2rem 2rem;
+    width: auto;
+    height: 42rem;
+}
+
+.header{
+    color: white;
+    display: flex;
+    gap: 10px;
+    padding: 30px 13rem;
+}
+
+.GridContainer{
+    border: 0;
+    background-color: white;
+    height:30rem;
+    width: 60%;
+    margin: 5px 14rem;
+    
+}
+
+.GridItems{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    text-align: center;
+}
+
+.item{
+    padding: 30px;
+    margin: 5px;
+    color: white;
+}
+.item h3{
+    margin: 5px;
+}
+
+.item:nth-child(1){
+   grid-column: 1 / span 2;
+    background-color: rgb(22, 170, 228);
+}
+.item:nth-child(2){
+    background-color: cyan;
+}
+.item:nth-child(3){
+    background-color: rgb(162, 98, 135);
+}
+.item:nth-child(4){
+    background-color: rgb(254, 74, 74);
+}
+.item:nth-child(5){
+    background-color: tomato ;
+}
+.item:nth-child(6){
+    background-color: rgb(214, 202, 66);
+}
+.item:nth-child(7){
+    background-color: rgb(120, 201, 115);
+}
+.item:nth-child(8){
+    background-color: rgb(107, 183, 176);
+}
+.item:nth-child(9){
+    grid-column: 2/span 2;
+    background-color: palevioletred;
+}
+.item:nth-child(10){
+    background-color: rgb(63, 185, 94);
+}
+.item:nth-child(11){
+ background-color: rgb(107, 66, 120);
+ grid-area:4/1/5/5 ;
+}
