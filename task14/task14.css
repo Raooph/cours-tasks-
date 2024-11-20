@@ -1,0 +1,120 @@
+:root{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 1500px;
+}
+
+.container{
+   min-width: 1080px;
+    width: 100%;
+    height: auto;
+    max-width: 1600px;
+    background-color: #FBF8F5;
+   
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+#feather{
+    font-size: 29px;
+    font-weight: 800;
+}
+.main1{
+    margin-top: 100px;
+    margin-left: 60px;
+    gap: 15px;
+}
+h2{
+    font-size: 64px;
+    font-weight: 400;
+}
+#p1{
+    text-align: left;
+    font-size: 18px;
+}
+button{
+    background-color: #E9672B;
+    border-radius: 30px;
+    color: black;
+    width: 80px;
+    height: 30px;
+    margin-top: 50px;
+}
+.Main{
+    display: flex;
+}
+#home1{
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border: 1px solid white;
+    width: 600px;
+    min-width: 500px;
+    height: 350px;
+    margin: 60px;
+}
+
+.footer{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 200px;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    min-width: 180px;
+    height: 220px;   
+}
+
+.rooms{
+    height: 300px;
+   margin: 15px;
+}
+
+.room1{
+    border: 1px solid #E9672B;
+    box-shadow: 7px 7px #CBC6F4;
+}
+.room2{
+    border: 1px solid #225DCA;
+    box-shadow: 7px 7px #E7CB43;
+}
+.room3{
+    border: 1px solid #242947;
+    box-shadow: 7px 7px #A2D4C5;
+}
+.room4{
+    border: 1px solid #DE4333;
+    box-shadow: 7px 7px #AF4920;
+}
+p{
+    text-align: center;
+    padding: 15px;
+}
