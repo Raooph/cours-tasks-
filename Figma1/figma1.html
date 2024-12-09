@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="figma1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <nav class="bg-white border-gray-200 dark:bg-gray-200">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a
+          href="https://flowbite.com/"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <img
+            src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Mask Group.png"
+            class="h-8"
+            alt="Flowbite Logo"
+          />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap text-amber-500"
+            >Food</span
+          >
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap text-amber-300"
+            >Wagon</span
+          >
+        </a>
+        <div>
+          <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Deliver Address.png" alt="...">
+        </div>
+        <div class="flex md:order-2">
+          <button
+            type="button"
+            data-collapse-toggle="navbar-search"
+            aria-controls="navbar-search"
+            aria-expanded="false"
+            class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1"
+          >
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 20 20"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+              />
+            </svg>
+            <span class="sr-only">Search</span>
+          </button>
+          <div class="relative hidden md:block">
+            <div
+              class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+            >
+              <svg
+                class="w-4 h-4 text-gray-200 dark:text-amber-300"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                />
+              </svg>
+              <span class="sr-only">Search icon</span>
+            </div>
+
+            <input
+              type="text"
+              id="search-navbar"
+              class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Search..."
+            />
+          </div>
+
+          <button
+            data-collapse-toggle="navbar-search"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-search"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-search"
+        >
+          <div class="relative mt-3 md:hidden">
+            <div
+              class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+            >
+              <svg
+                class="w-4 h-4 text-gray-500 dark:text-gray-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                />
+              </svg>
+            </div>
+            <input
+              type="text"
+              id="search-navbar"
+              class="block w-full p-2 ps-10 text-sm text-gray-200 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-200 dark:border-gray-200 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Search..."
+            />
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="main">
+      <div class="hero">
+        <img
+          src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\ad42b6be9069aba3dcabc05b4b387176.png"
+          alt="Group1"
+        />
+      </div>
+      <div class="BaseImage">
+        <img
+          src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Image Base.png"
+          alt="ImageBase"
+        />
+      </div>
+
+      <div class="MainText">
+        <h1>Are you starving?</h1>
+        <p id="p1">
+          Within a few clicks finde meals that are accessible near you
+        </p>
+        
+        <div class="SearchIcons">
+          <div class="flex-icon">
+
+            <div class="icon1">
+              <img
+                src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Icon.png"
+                alt="icon"
+              />
+              <p>Delivery</p>
+            </div>
+  
+            <div class="icon2">
+              <img
+                src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Icon (1).png"
+                alt="icon"
+              />
+              <p>Pickup</p>
+            </div>
+          </div>
+          <div class="input1">
+            <i class="fa-solid fa-location-dot" style="font-weight:bold ; color: #FF7474"></i>
+            <input id="input1" type="search" placeholder="Enter your address">
+          </div>
+          <button id="button3">Find Food </button>
+
+        </div>
+      </div>
+    </div> 
+
+      <div class="meals">
+        <div class="meal-1">
+          <img
+            src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Meal1.png"
+            alt="Meal1"
+          />
+          <div id="card"><p class="p1">15%</p></div>
+          <div><p>Greys Vage</p></div>
+          <div><p class="p3">6 Days Remaining</p></div>
+        </div>
+        <div class="meal-2">
+          <img
+            src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Meal2.png"
+            alt="Meal2"
+          />
+          <div id="card"><p class="p1">10%</p></div>
+          <div><p>Greys Vage</p></div>
+          <div><p class="p3">6 Days Remaining</p></div>
+        </div>
+        <div class="meal-3">
+          <img
+            src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Meal3.png"
+            alt="Meal3"
+          />
+          <div id="card"><p class="p1">25%</p></div>
+          <div><p>Greys Vage</p></div>
+          <div><p class="p3">7 Days Remaining</p></div>
+        </div>
+        <div class="meal-4">
+          <img
+            src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Meal4.png"
+            alt="Meal4"
+          />
+          <div id="card"><p class="p1">20%</p></div>
+          <div><p>Greys Vage</p></div>
+          <div><p class="p3">8 Days Remaining</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h1 class="heading1">How does it works</h1>
+      <div class="icons">
+        <div class="MapIcon">
+          <img
+            src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Map Marker.png"
+            alt="icon"
+          />
+          <div>
+            <span id="span1">Select location</span>
+            <span id="span2">Choose the location where your food will be delivered.</span>
+          </div>
+        </div>
+        <div class="MapIcon">
+          <img
+            src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Icons.png"
+            alt="icons"
+          />
+          <div>
+            <span id="span1">Choose Order</span>
+            <span id="span2">Check over hundreds of menus to pick your favorite food</span>
+          </div>
+        </div>
+        <div class="MapIcon">
+          <img
+            src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Invoice.png"
+            alt="Invoice"
+          />
+          <div>
+            <span id="span1">Pay Advanced</span>
+            <span id="span2">It's quick, safe, and simple. Select several methods of payment</span>
+          </div>
+        </div>
+        <div class="MapIcon">
+          <img
+            src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Donut.png"
+            alt="donut"
+          />
+          <div>
+            <span id="span1">Enjoy meals</span>
+            <span id="span2">Food is made and delivered directly to your home.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <p id="p5">Popular Items</p>
+    <div class="PopularItems">
+
+      <div>
+        <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\1.png" alt="...">
+      </div>
+      <div>
+        <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\2.png" alt="...">
+      </div>
+  
+    <div>
+      <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\3.png" alt="...">
+    </div>
+    <div>
+      <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\4.png" alt="...">
+    </div>
+    <div>
+      <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\5.png" alt="...">
+    </div>
+  </div>
+
+  <p id="p5">Featured Restaurants</p>
+  <div class="TopImages">
+    <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Cards.png" alt="...">
+  </div>
+
+  <div id="button1">
+    <button id="button2">View All > </button>
+  </div>
+
+  <section class="FoodContainer">
+    <div class="SearchFood">
+      <p id="p6">Search by Food</p>
+      <div class="i2">
+        <button>
+            <i class="fa-solid fa-circle-chevron-left" style="color: #FFB30E"></i>
+            <i class="fa-solid fa-circle-chevron-right" style="color: #FFB30E"></i>
+        </button>
+      </div>
+    </div>
+
+      <section class="CircleImg">  
+        <div id="img1">
+          <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Image.png" alt="...">
+          <p id="p7">Pizza</p>
+        </div> 
+        <div id="img2">
+          <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Image (1).png" alt="...">
+          <p id="p7">Burger</p>
+        </div> 
+        <div id="img3">
+          <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Image (2).png" alt="...">
+          <p id="p7">Noodles</p>
+        </div> 
+        <div id="img4">
+          <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Image (3).png" alt="...">
+          <p id="p7">Sub-sandiwch</p>
+        </div> 
+        <div id="img5">
+          <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Image (4).png" alt="...">
+          <p id="p7">Chowmein</p>
+        </div> 
+        <div id="img6">
+          <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Image (5).png" alt="...">
+          <p id="p7">Steak</p>
+        </div> 
+      </section>
+  </section>
+
+  
+  <section class="phone">
+    <div>
+      <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Features.png" alt="...">
+    </div>
+
+    <div class="app1">
+      <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Image (6).png" alt="">
+    </div>
+
+    <div class="Apps">
+      <div class="AppButtons">
+        <p id="p8">Install the app</p>
+        <p id="p9">It's never been easier to order food. Look for the finest discounts and you'll be lost in a world of delectable food.</p>
+      
+      <div class="DownloadButtons">
+
+        <button id="button4">
+          
+          <div id="button5">
+
+          <i class="fa-brands fa-google-play" style="color: #eb6c23;font-size: 35px"></i>
+            <div>
+              <p id="p10">Get it on</p>
+              <p>Google Play</p>
+            </div>
+          </div>
+        </button>
+
+          
+        <button id="button4">
+
+          <div id="button6">
+          <i class="fa-brands fa-apple" style="color: #eb6c23; font-size: 37px"></i> 
+
+            <div>
+              <p id="p10">Download on the</p>
+              <p> App Store</p>
+            </div>
+          </div>
+        </button>
+
+          
+
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+
+  <section class="container2">
+    <div class="foto1">
+      <div>
+        <p id="p11">Best deals Crispy Sandwiches</p>
+        <p id="p9">Enjoy the large size of sandwiches. Complete 
+          perfect slice of sandwiches.</p>
+          <button id="button7">Proceed to order</button>
+      </div>
+        <div>
+          <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Right.png" alt="...">
+        </div>
+    </div>
+
+    <div class="foto2">
+      <div>
+        <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Image (7).png" alt="...">
+      </div>
+      <div>
+        <p id="p11">Celebrate  parties with Fried Chicken</p>
+        <p id="p9">Get the best fried chicken smeared with a lip smacking lemon chili flavor. Check out 
+          best deals for fried chicken.</p>
+          <button id="button7">Proceed to order</button>
+      </div>
+    </div>
+
+    <div class="foto3">
+      <div>
+        <p id="p11">Best deals Crispy Sandwiches</p>
+        <p id="p9">Enjoy the large size of sandwiches. Complete 
+          perfect slice of sandwiches.</p>
+          <button id="button7">Proceed to order</button>
+      </div>
+        <div>
+          <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\Right (1).png" alt="...">
+        </div>
+    </div>
+    
+    <div class="image8">
+      <p id="p12">Are you ready to order with the best deals?</p>
+      <button id="button8">Proceed to order</button>
+    </div>
+
+    <section class="FinalFooter">
+  
+      <b>Our top cities</b>
+      <div class="cities">   
+
+          <p>San Francisco</p>
+          <p>Miami</p>
+          <p>San Diego</p>
+          <p>East Bay</p>
+          <p>Long Beach</p>
+  
+
+          
+          <p>Los Angeles</p>
+          <p>Washington DC</p>
+          <p>Seattle</p>
+          <p>Portland</p>
+          <p>Nashville</p>
+      
+
+   
+
+          <p>New York City</p>
+          <p>Orange County</p>
+          <p>Atlanta</p>
+          <p>Charlotte</p>
+          <p>Denver</p>
+     
+
+          <p>Chicago</p>
+          <p>Phoenix</p>
+          <p>Las Vegas</p>
+          <p>Sacramento</p>
+          <p>Oklahoma City</p>
+        
+      
+
+          <p>Columbus</p>
+          <p>New Mexico</p>
+          <p>Albuquerque</p>
+          <p>Sacramento</p>
+
+          
+        </div>
+
+        
+        
+        <div id="line">
+          <img src="c:\Users\user\Desktop\cours(tasks)\js(tasks)\images\HR.png" alt="...">
+        </div>
+        
+        <div class="b1">
+          <p>Company</p>
+          <p>Contact</p>
+          <p>Legal</p>
+          <p id="p13">About us</p>
+          <p id="p13">Terms & Conditions</p>
+          <p id="p13">Team</p>
+          <p id="p13">Partner with us </p>
+          <p id="p13">Refund & Cancellation </p>
+          <p id="p13">Careers</p >
+          <p id="p13">Ride with us</p >
+          <p id="p13">Privacy Policy</p >
+          <p id="p13">Blog</p >
+          <p id="p13">  </p >
+          <p id="p13">Cookie Policy</p >
+
+        </div>
+
+        
+
+    </section>
+
+  </section>
+  
+
+
+  </body>
+</html>
