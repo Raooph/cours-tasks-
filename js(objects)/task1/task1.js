@@ -1,6 +1,8 @@
-const obj = {
-  name: "Rauf",
-  gender: "male",
-  birthday: "29.08.2005",
-};
-console.log(obj.birthday);
+function Constructor(model, marka, ram, yaddas) {
+  this.marka = marka;
+  this.model = model;
+  this.ram = ram;
+  this.yaddas = yaddas;
+}
+const comp1 = new Constructor("asus", "zenbook", 16, 512);
+console.log(comp1);
