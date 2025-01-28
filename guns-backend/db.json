@@ -1,0 +1,91 @@
+{
+  "guns": [
+    {
+      "id": "etyuiopo12345r",
+      "ad": "AK-47",
+      "kateqoriya": "Avtomat",
+      "menshe": "Rusiya",
+      "il": 1949,
+      "kalibr": "7.62x39mm",
+      "image": "https://blenderartists.org/uploads/default/original/4X/c/9/a/c9aa150116d42e7a7de8f6cab50b4e29acde0edf.jpeg"
+    },
+    {
+      "id": "xcvbnhyte345ygbn",
+      "ad": "M16",
+      "kateqoriya": "Avtomat",
+      "menshe": "ABŞ",
+      "il": 1964,
+      "kalibr": "5.56x45mm",
+      "image": "https://img.gamewith.net/article/thumbnail/rectangle/42372.png"
+    },
+    {
+      "id": "lkjhgvbnmkiu09876t",
+      "ad": "Glock 17",
+      "kateqoriya": "Tapança",
+      "menshe": "Avstriya",
+      "il": 1982,
+      "kalibr": "9x19mm",
+      "image": "https://ateiguns.com/wp-content/uploads/2016/10/DSC_0036.jpg"
+    },
+    {
+      "id": "zwsdxdrfvg098765t",
+      "ad": "Barrett M82",
+      "kateqoriya": "Snayper tüfəngi",
+      "menshe": "ABŞ",
+      "il": 1989,
+      "kalibr": ".50 BMG",
+      "image": "https://cdnb.artstation.com/p/assets/images/images/013/538/749/large/aleksandar-milankovic-barrett-2b2.jpg?1540065467"
+    },
+    {
+      "id": "lkjhgfbhy871a",
+      "ad": "MP5",
+      "kateqoriya": "Tapança-pulemyot",
+      "menshe": "Almaniya",
+      "il": 1966,
+      "kalibr": "9x19mm",
+      "image": "https://cdna.artstation.com/p/assets/images/images/081/618/168/large/carlos-morales-empire-3d-std-mp5a3-002.jpg?1730769566"
+    },
+    {
+      "id": "pgrjnbuhgvc834l",
+      "ad": "Desert Eagle",
+      "kateqoriya": "Tapança",
+      "menshe": "ABŞ/İsrail",
+      "il": 1983,
+      "kalibr": ".50 AE",
+      "image": "https://cdnb.artstation.com/p/assets/images/images/004/907/687/large/mark-bos-deagle-render-3.jpg?1487124782"
+    },
+    {
+      "id": "kmnbfdxcfrtyh827u",
+      "ad": "M4 Carbine",
+      "kateqoriya": "Avtomat",
+      "menshe": "ABŞ",
+      "il": 1994,
+      "kalibr": "5.56x45mm",
+      "image": "https://w0.peakpx.com/wallpaper/11/877/HD-wallpaper-m4-carbine-assault-rifle-m4-rifle-gun-assault-rifle-weapon-carbine.jpg"
+    },
+    {
+      "id": "qaoijnbcxsdfvb569k",
+      "ad": "FN SCAR",
+      "kateqoriya": "Avtomat",
+      "menshe": "Belçika",
+      "il": 2009,
+      "kalibr": "7.62x51mm",
+      "image": "https://i.pinimg.com/736x/33/8a/ef/338aef40ab5b41a01c2451048c528366.jpg"
+    },
+    {
+      "id": "mnbvcxzwsd471f",
+      "ad": "Dragunov SVD",
+      "kateqoriya": "Snayper tüfəngi",
+      "menshe": "Rusiya",
+      "il": 1963,
+      "kalibr": "7.62x54mmR",
+      "image": "https://c4.wallpaperflare.com/wallpaper/563/453/185/russia-svd-dragunov-sniper-rifle-hd-wallpaper-preview.jpg"
+    }
+  ],
+  "categories": [
+    "Avtomat",
+    "Tapança",
+    "Snayper tüfəngi",
+    "Tapança-pulemyot"
+  ]
+}

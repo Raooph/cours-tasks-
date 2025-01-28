@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.silahContainer{
+    gap:20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1200px;
+    margin:20px auto;
+}
+.silahCards{
+    border: 2px solid black;
+    padding: 10px;
+    background: rgb(28, 27, 27);
+    border-collapse: collapse;
+    box-shadow: rgba(160, 28, 28, 0.358) 0px 10px 36px 0px, rgba(175, 28, 28, 0.34) 0px 0px 0px 1px;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 20px auto;
+}
+button{
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin:15px auto;
+    color: white;
+    background-color: rgb(255, 102, 0);
+    cursor: pointer;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+    overflow: hidden;
+}
+img:hover{
+    transform: scale(1.2);
+}
+h1{
+    color: red;
+}
+h1:hover{
+    color: green;
+}
+button:hover{
+    transform: scale(1.2);
+}
+
+form{
+    margin:20px ;
+    max-width: 1200px;
+    margin-left: 10rem;
+}
+input,select{
+    color: white;
+    background-color: rgb(25, 24, 24);
+    padding: 5px;
+    box-shadow: rgba(160, 28, 28, 0.358) 0px 10px 36px 0px, rgba(175, 28, 28, 0.34) 0px 0px 0px 1px;
+}
