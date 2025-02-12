@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+    padding: 0 40px;
+    font-size: 26px;
+    color: white;
+}
+header a{
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+footer{
+    text-align: center;
+    height: 70px;
+    background-color: black;
+    font-size: 22px;
+    margin-top:20rem ;
+    color: white;
+}
+p{
+    padding: 20px 0px;
+}
+
+#cards #card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin: 15px;
+}
+#card p{
+    border: 2px solid #dddd;
+    padding: 10px;
+    border-radius: 15px;
+}
