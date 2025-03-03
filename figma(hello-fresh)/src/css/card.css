@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;
+}
+.card img{
+
+    width: 262px;
+    height:328px ;
+    object-fit: cover;
+    overflow: hidden;
+}
+.card{
+    border: none;
+    margin: 30px;
+}
+.card  h4,p{
+    text-align: center;
+    margin: 20px;
+}
+.CardsImg{
+    margin-top: 30rem;
+  
+}
+.CardsImg   h3,p{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

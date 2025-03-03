@@ -1,0 +1,25 @@
+
+
+
+.footerContainer{
+    position: relative;
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+    
+}
+#footerText{
+    position: absolute;
+    left: 30rem;
+    bottom: 20px;
+    width: 585px;
+    margin: auto;
+    height: 280px;
+    justify-content: center;
+    text-align: center;
+    h3,a,#btn2{
+      
+        margin:50px ;
+    }
+}

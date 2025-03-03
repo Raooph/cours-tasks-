@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+ 
+#button1{
+    border-color:  #067A46;
+    padding: 8px 35px;
+    color:  #067A46;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#button1:hover{
+    background-color:  #067A46;
+    color:white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .NavLinks,#button1,.menu{
+        justify-content: center;
+        align-items: center;
+        margin: 14px;
+    }
+}
+
+.NavLinks{
+    display: flex;
+    gap: 30px;
+    h2{
+        font-weight: 600;
+        font-size: 16px;
+    }
+    h2:hover{
+        color:  #067A46;
+        cursor: pointer;
+    }
+}
+#logoImg{
+    width:92px ;
+    height: 30px;
+}
