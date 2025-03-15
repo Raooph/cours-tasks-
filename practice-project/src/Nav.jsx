@@ -1,10 +1,8 @@
 import React from 'react'
 import { SlBasket } from "react-icons/sl";
 import { Link } from 'react-router'
-import { useState } from 'react';
-const Nav = () => {
+const Nav = ({searchedText,setSearchedText}) => {
   const links=[{id:0,to:"/",title:"Home"},{id:1,to:"/about",title:"About"},{id:2,to:"/products",title:"Products"},{id:3,to:"/contact",title:"Contact"}]
-  const [searchedText,setSearchedText]=useState([]);
   return (
 
        <>
