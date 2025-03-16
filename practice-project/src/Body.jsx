@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router';
 import Loader from './Loader';
 const url=import.meta.env.VITE_BACKEND_KEY;
-const Body = (searchedText) => {
+const Body = ({searchedText}) => {
   const [products,setProducts]=useState([]);
   const [isLoading,setIsLoading]=useState(true);
   const [filteredProducts,setFilteredProducts]=useState([]);
@@ -30,7 +30,7 @@ const Body = (searchedText) => {
     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 my-6'>
      {
       
-        products.map(({id,price,title,images,category,description,slug})=>{
+        filteredProducts.map(({id,price,title,images,category,description,slug})=>{
           return <div className='border-1 border-gray-300 relative rounded-md' key={id}>
             <img className='object-cover w-full h-[250px] rounded-tl-md rounded-tr-md' src={images}  />
            <div className='p-2'>
