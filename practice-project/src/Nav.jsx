@@ -15,7 +15,7 @@ const Nav = ({searchedText,setSearchedText}) => {
         <div className='flex justify-center items-center text-xl gap-7'>
         {
           links.map(({id,to,title})=>{
-            return  <Link key={id} to={to}>{title}</Link>
+            return  <Link key={id} to={to} className="relative  after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[2px] after:bg-white  after:transition-all after:duration-300 after:origin-center hover:after:w-full hover:after:left-0">{title}</Link>
           })
         }
         </div>
