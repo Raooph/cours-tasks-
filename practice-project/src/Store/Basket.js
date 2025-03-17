@@ -10,5 +10,29 @@ const UseBasket = create((set) => ({
         basket: newBasket,
       };
     }),
+  changeProductCount: (id, o) =>
+    set((state) => {
+      const current = state.basket.find((p) => (p.id = id));
+      if (o === "+") {
+        current.count += 1;
+      } else if (o === "-") {
+        if (current.count > 1) {
+          current.count -= 1;
+        }
+      }
+      current.totalPrice = current.count * current.price;
+      localStorage.setItem("basket", JSON.stringify([...state.basket]));
+      return {
+        basket: [...state.basket],
+      };
+    }),
+  deleteProductsFromBasket: (id) =>
+    set((state) => {
+      const allProducts = state.basket.filter((p) => p.id != id);
+      localStorage.setItem("basket", JSON.stringify(allProducts));
+      return {
+        basket: allProducts,
+      };
+    }),
 }));
 export default UseBasket;
