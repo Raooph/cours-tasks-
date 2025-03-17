@@ -33,7 +33,7 @@ const ProductDetailed = () => {
       return <Loader/>
     }
     const addBasket=()=>{
-      const data={...product,count:1}
+      const data={...product,count:1,totalPrice: product.price};
       addNewProduct(data);
       setIsAdded(true);
     }

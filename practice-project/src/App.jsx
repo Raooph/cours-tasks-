@@ -7,7 +7,11 @@ import ProductDetailed from './pages/Products'
 
 
 const App=()=> {
-  const routes=[{id:0,path:"/",element:<Home/>},{id:1,path:"/products/:slug",element:<ProductDetailed/>},{id:2,path:"/basket/:slug",element:<Basket/>}]
+  const routes=[
+    {id:0,path:"/",element: <Home/>},
+    {id:1,path:"/products/:slug",element: <ProductDetailed/>},
+    {id:2,path:"/basket",element: <Basket/> },
+  ];
 
   return(
     <>
